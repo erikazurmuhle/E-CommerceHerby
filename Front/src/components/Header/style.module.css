@@ -1,0 +1,9 @@
+.menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu span:hover + div {
+  opacity: 1;
+  color: black;
+}
